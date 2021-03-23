@@ -1,0 +1,24 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+#wrapper {
+    display: table;
+    height: 100%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+#cell {
+    padding: 5%;
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.lv-order-form {
+    text-align: left;
+    width: 50%;
+    margin: 0 auto;
+}

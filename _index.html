@@ -1,0 +1,1896 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" type="text/css" href="css/form.min.css" />
+    <script type="text/javascript">
+      /*<![CDATA[*/
+      document.write(
+        "<scr" +
+          'ipt type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js">' +
+          "</scr" +
+          "ipt>"
+      );
+      document.write(
+        "<scr" +
+          'ipt type="text/javascript">lvjq1 = jQu' +
+          "ery.noConflict(true);</scr" +
+          "ipt>"
+      );
+      /*]]>*/
+    </script>
+    <script type="text/javascript" src="js/jquery.maskedinput.js"></script>
+    <script type="text/javascript" src="js/jquery.yiiactiveform.js"></script>
+    <script type="text/javascript" src="js/formHelper.min.js"></script>
+    <script type="text/javascript">
+      /*<![CDATA[*/
+      if (!window.leadvertex) window.leadvertex = {};
+      if (!window.leadvertex.goodsPrices)
+        window.leadvertex.goodsPrices = {
+          "alias_B2CDostavka(kurer)1523297859": {
+            prices: { 1: "580" },
+            maxQuantity: 1,
+          },
+          alias_DostavkaPochtaRossii1481142113: {
+            prices: { 1: "480" },
+            maxQuantity: 1,
+          },
+          lva_Apelsin_e9189812e9: { prices: { 1: "1980" }, maxQuantity: 1 },
+          lva_biostimulyat: { prices: { 1: "0" }, maxQuantity: 1 },
+          lva_Chereshnya_08846c8f75: { prices: { 1: "0" }, maxQuantity: 1 },
+          "lva_ChernikaKalinka-malink_d2f9d60fd3": {
+            prices: { 1: "0" },
+            maxQuantity: 1,
+          },
+          lva_Granat_12249725f1: { prices: { 1: "0" }, maxQuantity: 1 },
+          lva_Grusha_50d022d4241: { prices: { 1: "0" }, maxQuantity: 1 },
+          lva_Kivi_70f65bb665: { prices: { 1: "1980" }, maxQuantity: 1 },
+          "lva_KlubnikaKalinka-malin_261f6a002c": {
+            prices: { 1: "0" },
+            maxQuantity: 1,
+          },
+          lva_Korolevskierozy_12c9e24064: {
+            prices: { 1: "0" },
+            maxQuantity: 1,
+          },
+          lva_Limon_ded9716e3f: { prices: { 1: "1980" }, maxQuantity: 1 },
+          lva_Mandarin_c045f94372: { prices: { 1: "0" }, maxQuantity: 1 },
+          lva_Vinograd_08046f4fbc: { prices: { 1: "0" }, maxQuantity: 1 },
+          lva_Vishnya_90a859e53f: { prices: { 1: "1980" }, maxQuantity: 1 },
+        };
+      /*]]>*/
+    </script>
+    <title>Деревья</title>
+    <meta name="description" content="" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, maximum-scale=1"
+    />
+
+    <!-- Template Basic Images Start -->
+    <meta property="og:image" content="images/image.jpg" />
+    <link rel="icon" href="favicon.ico" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images/apple-touch-icon-180x180.png"
+    />
+    <!-- Template Basic Images End -->
+
+    <!-- Custom Browsers Color Start -->
+    <meta name="theme-color" content="#000" />
+    <!-- Custom Browsers Color End -->
+    <link rel="stylesheet" href="css/magnific-popup.css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
+  <body>
+    <script type="text/javascript">
+      /*<![CDATA[*/
+      lvjq1(document).ready(function () {
+        lvjq1(".lv-form-timezone").val(new Date().getTimezoneOffset());
+      });
+      /*]]>*/
+    </script>
+
+    <div class="site-wrapper">
+      <header class="site-header">
+        <div class="container">
+          <div class="row justify-content-between">
+            <div class="col-xl-4 col-lg-3">
+              <a href="/" class="logo">
+                <img src="images/logo.png" alt="Лого" class="img" />
+              </a>
+              <!-- <div id="toggle" onclick="openNav()">
+						<span></span>
+					</div>
+					<div id="myNav" class="overlay">
+						<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+						<div class="overlay-content">
+							<ul class="overlay-mobile-list">
+								<li><a href="#" class="scroll-bottom" onclick="closeNav()">Как выращивать</a></li>
+								<li><a href="#" class="scroll-bottom" onclick="closeNav()">Описание</a></li>
+								<li><a href="#" class="scroll-bottom" onclick="closeNav()">Отзывы</a></li>
+								<li><a href="#" class="scroll-bottom" onclick="closeNav()">Как заказать</a></li>
+							</ul>
+						</div>
+					</div> -->
+            </div>
+            <div class="col-xl-13 col-lg-14 d-none d-lg-block">
+              <nav class="main-nav">
+                <ul class="black-link">
+                  <li>
+                    <a href="#action" class="scroll-bottom">Как выращивать</a>
+                  </li>
+                  <li><a href="#fresh" class="scroll-bottom">Описание</a></li>
+                  <li><a href="#review" class="scroll-bottom">Отзывы</a></li>
+                  <li>
+                    <a href="#order" class="scroll-bottom">Как заказать</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+            <div class="col-xl-6 col-lg-6 d-none d-lg-flex phone-wrap-block">
+              <div class="phone-wrap">
+                <img src="images/phone-icon.png" alt="1" />
+                <a href="tel:88005110257" class="phone-number black-link"
+                  >8 (800) <span>511 02 57</span></a
+                >
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <main class="main">
+        <section class="main-screen">
+          <div class="container main-caption-wrap">
+            <div class="row">
+              <div class="col-lg-24">
+                <div
+                  class="row main-caption-block justify-content-between d-none d-lg-flex"
+                >
+                  <div class="col-xl-16 col-lg-15">
+                    <div class="main-caption-txt">
+                      <h1 class="main-caption">
+                        <span>Гибридные мини-деревья</span><br />
+                        <span>Домашние фрукты</span>
+                      </h1>
+                      <div class="main-caption-desc">
+                        <span>Урожай спелых фруктов</span><br />
+                        <b>круглый год!</b>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-8 col-lg-9">
+                    <div class="form-wrap">
+                      <form
+                        id="form"
+                        class="form lv2-form lv2-form1"
+                        action="/"
+                        method="post"
+                      >
+                        <div style="display: none">
+                          <input
+                            type="hidden"
+                            value="9bf24c202d26d4f6ae42c9231b9afacf675c39fe"
+                            name="YII_CSRF_TOKEN"
+                          />
+                        </div>
+                        <div class="form-title">Заказать по акции!</div>
+                        <div class="form-desc">
+                          <span class="old-price-cnt">
+                            <span class="old_price_val">1980</span>
+                            <span class="old_price_cur">р</span>
+                          </span>
+                          <span class="new-price-cnt">
+                            <span class="new_price_val">147</span>
+                            <span class="new_price_cur">р</span>
+                          </span>
+                        </div>
+                        <div class="form-input">
+                          <input
+                            id="name"
+                            class="name input"
+                            placeholder="Ваше имя"
+                            name="fio"
+                            type="text"
+                            maxlength="255"
+                          />
+                          <div
+                            class="error lv2-form-error"
+                            style="color: red; display: none"
+                            id="name_em_"
+                          ></div>
+                        </div>
+                        <div class="form-input">
+                          <input
+                            id="phone"
+                            class="phone input textField"
+                            placeholder="Ваш телефон"
+                            name="phone"
+                            type="text"
+                            maxlength="25"
+                          />
+                          <div
+                            style="color: red; display: none"
+                            id="phone_em_"
+                            class="lv2-form-error"
+                          ></div>
+                        </div>
+                        <!-- Timer -->
+                        <div class="action-title">
+                          До окончания акции осталось:
+                        </div>
+                        <div id="countbox" class="timerbox">
+                          <div class="countbox-num">
+                            <div id="countbox-hours1" class="count-num">0</div>
+                            <div id="countbox-hours2" class="count-num">6</div>
+                            <p class="count-txt">Часов</p>
+                          </div>
+                          <div class="countbox-num">
+                            <div id="countbox-mins1" class="count-num">3</div>
+                            <div id="countbox-mins2" class="count-num">3</div>
+                            <p class="count-txt">Минут</p>
+                          </div>
+                          <div class="countbox-num">
+                            <div id="countbox-secs1" class="count-num">2</div>
+                            <div id="countbox-secs2" class="count-num">1</div>
+                            <p class="count-txt">Секунд</p>
+                          </div>
+                        </div>
+                        <div class="form-button">
+                          <button class="button" type="submit">
+                            Заказать со скидкой
+                          </button>
+                        </div>
+                        <div class="form-sup">*При заказе комплекта</div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-none d-lg-block">
+            <div class="owl-carousel owl-theme slider-1">
+              <div class="img-wrap img-wrap-1"></div>
+              <div class="img-wrap img-wrap-2"></div>
+              <div class="img-wrap img-wrap-3"></div>
+              <div class="img-wrap img-wrap-4"></div>
+              <div class="img-wrap img-wrap-5"></div>
+              <div class="img-wrap img-wrap-6"></div>
+              <div class="img-wrap img-wrap-7"></div>
+              <div class="img-wrap img-wrap-8"></div>
+            </div>
+            <!-- owl carousel end -->
+          </div>
+          <div class="container">
+            <div class="bookmarks bookmarks-1 d-none d-lg-block">
+              <ul class="test test-1">
+                <li class="bookmark1 active" data="0">
+                  <div class="circle">
+                    <span></span>
+                  </div>
+                  <span class="title">Черешня</span>
+                </li>
+                <li class="bookmark2" data="1">
+                  <div class="circle">
+                    <span></span>
+                  </div>
+                  <span class="title">Апельсин</span>
+                </li>
+                <li class="bookmark3" data="2">
+                  <div class="circle">
+                    <span></span>
+                  </div>
+                  <span class="title">Киви</span>
+                </li>
+                <li class="bookmark4" data="3">
+                  <div class="circle">
+                    <span></span>
+                  </div>
+                  <span class="title">Вишня</span>
+                </li>
+                <li class="bookmark5" data="4">
+                  <div class="circle">
+                    <span></span>
+                  </div>
+                  <span class="title">Мандарин</span>
+                </li>
+                <li class="bookmark6" data="5">
+                  <div class="circle">
+                    <span></span>
+                  </div>
+                  <span class="title">Гранат</span>
+                </li>
+                <li class="bookmark6" data="6">
+                  <div class="circle">
+                    <span></span>
+                  </div>
+                  <span class="title">Лимон</span>
+                </li>
+                <li class="bookmark6" data="7">
+                  <div class="circle">
+                    <span></span>
+                  </div>
+                  <span class="title">Груша</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="d-lg-none">
+            <div class="owl-carousel owl-theme slider-1-mob">
+              <div class="img-wrap img-wrap-1"></div>
+              <div class="img-wrap img-wrap-2"></div>
+              <div class="img-wrap img-wrap-3"></div>
+              <div class="img-wrap img-wrap-4"></div>
+              <div class="img-wrap img-wrap-5"></div>
+              <div class="img-wrap img-wrap-6"></div>
+              <div class="img-wrap img-wrap-7"></div>
+              <div class="img-wrap img-wrap-8"></div>
+            </div>
+            <!-- owl carousel end -->
+          </div>
+        </section>
+        <div class="d-lg-none mobile-fs-form">
+          <div class="col-xl-8 col-lg-10">
+            <div class="form-wrap">
+              <form
+                id="form"
+                class="form lv2-form lv2-form2"
+                action="/"
+                method="post"
+              >
+                <div style="display: none">
+                  <input
+                    type="hidden"
+                    value="9bf24c202d26d4f6ae42c9231b9afacf675c39fe"
+                    name="YII_CSRF_TOKEN"
+                  />
+                </div>
+                <div class="form-title">Заказать по акции!</div>
+                <div class="form-desc">
+                  <span class="old-price-cnt">
+                    <span class="old_price_val">1980</span>
+                    <span class="old_price_cur">р</span>
+                  </span>
+                  <span class="new-price-cnt">
+                    <span class="new_price_val">147</span>
+                    <span class="new_price_cur">р</span>
+                  </span>
+                </div>
+                <!-- <div class="form-select">
+							<select class="select" name="country">
+								<option value="RU">Россия</option>
+								<option value="KZ">Казахстан</option>
+							</select>
+						</div> -->
+                <div class="form-input">
+                  <input
+                    id="name"
+                    class="name input"
+                    placeholder="Ваше имя"
+                    name="fio"
+                    type="text"
+                    maxlength="255"
+                  />
+                  <div
+                    class="error lv2-form-error"
+                    style="color: red; display: none"
+                    id="name_em_"
+                  ></div>
+                </div>
+                <div class="form-input">
+                  <input
+                    id="phone"
+                    class="phone input textField"
+                    placeholder="Ваш телефон"
+                    name="phone"
+                    type="text"
+                    maxlength="25"
+                  />
+                  <div
+                    style="color: red; display: none"
+                    id="phone_em_"
+                    class="lv2-form-error"
+                  ></div>
+                </div>
+                <!-- Timer -->
+                <div class="action-title">До окончания акции осталось:</div>
+                <div id="countbox_mob" class="timerbox">
+                  <div class="countbox-num">
+                    <div id="countbox-hours1" class="count-num">0</div>
+                    <div id="countbox-hours2" class="count-num">6</div>
+                    <p class="count-txt">Часов</p>
+                  </div>
+                  <div class="countbox-num">
+                    <div id="countbox-mins1" class="count-num">3</div>
+                    <div id="countbox-mins2" class="count-num">3</div>
+                    <p class="count-txt">Минут</p>
+                  </div>
+                  <div class="countbox-num">
+                    <div id="countbox-secs1" class="count-num">2</div>
+                    <div id="countbox-secs2" class="count-num">1</div>
+                    <p class="count-txt">Секунд</p>
+                  </div>
+                </div>
+                <div class="form-button">
+                  <button class="button" type="submit">
+                    Заказать со скидкой
+                  </button>
+                </div>
+                <div class="form-sup">*При заказе комплекта</div>
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="benefits">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-16">
+                <div class="row">
+                  <div class="col-lg-12 col-md-12">
+                    <div class="benefits-item">
+                      <div class="img img-1"></div>
+                      <div class="cnt">
+                        <span
+                          >Инновационный<br />
+                          гибрид, растущий<br />
+                          на подоконнике</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-12 col-md-12">
+                    <div class="benefits-item">
+                      <div class="img img-2"></div>
+                      <div class="cnt">
+                        <span
+                          >До 4-х урожаев<br />
+                          спелых и сочных<br />
+                          фруктов в год</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-12 col-md-12">
+                    <div class="benefits-item">
+                      <div class="img img-3"></div>
+                      <div class="cnt">
+                        <span
+                          >Не требуют много<br />
+                          света, растут на<br />
+                          зимнем солнце</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-12 col-md-12">
+                    <div class="benefits-item">
+                      <div class="img img-4"></div>
+                      <div class="cnt">
+                        <span
+                          >Плодоношение<br />
+                          до 20 ти плодов<br />
+                          каждые 4 месяца</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <section class="differences">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-24">
+                <h2 class="caption">
+                  В чем отличия фруктов <span>мини-деревьев</span><br />
+                  <span>“Домашние деревья”</span> от магазинных?
+                </h2>
+              </div>
+            </div>
+            <div class="row justify-content-center item-wrap">
+              <div class="col-lg-10">
+                <div class="item red-item">
+                  <img
+                    src="images/dif-img-1.png"
+                    alt="1"
+                    class="img img-responsive"
+                  />
+                  <div class="cnt">
+                    <div class="title">
+                      Фрукты, которые<br />
+                      продают в магазинах
+                    </div>
+                    <ul class="list">
+                      <li>
+                        <b>ЮЖНЫЕ фрукты</b> не растут<br />
+                        в наших широтах
+                      </li>
+                      <li>
+                        <b>Иностранные фрукты</b> везут в магазины<br />
+                        до 4-х недель
+                      </li>
+                      <li>
+                        <b>Импортные фрукты</b> густо обрабатывают<br />
+                        пестицидами
+                      </li>
+                      <li>
+                        <b>“Пластмассовые яблочки”</b> не несут<br />
+                        никакой пользы
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-10">
+                <div class="item green-item">
+                  <img
+                    src="images/dif-img-2.png"
+                    alt="2"
+                    class="img img-responsive"
+                  />
+                  <div class="cnt">
+                    <div class="title">
+                      Фрукты<br />
+                      “Домашние деревья”
+                    </div>
+                    <ul class="list">
+                      <li><b>ВКУСНЫЕ фрукты</b> высочайшего качества</li>
+                      <li><b>Всего 5 минут</b> в день на уход</li>
+                      <li><b>Витамины</b> круглый год</li>
+                      <li><b>"Южный" урожай</b> в северном климате</li>
+                      <li><b>До 16 кг фруктов</b> с куста</li>
+                      <li><b>Окупаемость</b> - 3 месяца.</li>
+                      <li><b>Экологичность</b> и <b>безопасность</b></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="his">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-20">
+                <h2 class="caption"><span>Свои фрукты круглый год</span></h2>
+                <div
+                  class="owl-carousel owl-theme slider-2 slider-dots slider-flex"
+                >
+                  <div class="his-item">
+                    <div class="img-wrap">
+                      <img
+                        src="images/his-img-1.png"
+                        alt="1"
+                        class="img-responsive"
+                      />
+                    </div>
+                    <div class="title">Черешня</div>
+                    <div class="desc">
+                      Благотворно влияние на почки, качество крови и стенок
+                      сосудов. Хорошо помогает при заболеваниях крови и сосудов,
+                      болезнях кишечника
+                    </div>
+                    <div class="specifications">
+                      <span>Высота: 50 см</span>
+                      <span>|</span>
+                      <span>Урожай: 4 раза в год</span>
+                    </div>
+                    <div class="vitamins">
+                      <div class="item item-a">
+                        <span>A</span>
+                      </div>
+                      <div class="item item-b3">
+                        <span>B3</span>
+                      </div>
+                      <div class="item item-b5">
+                        <span>B5</span>
+                      </div>
+                      <div class="item item-e">
+                        <span>E</span>
+                      </div>
+                      <div class="item item-k">
+                        <span>K</span>
+                      </div>
+                      <div class="item item-ca">
+                        <span>Ca</span>
+                      </div>
+                      <div class="item item-p">
+                        <span>P</span>
+                      </div>
+                      <div class="item item-mg">
+                        <span>Mg</span>
+                      </div>
+                    </div>
+                    <a href="#form-2" class="button scroll-bottom"
+                      >Заказать черешню</a
+                    >
+                  </div>
+                  <div class="his-item">
+                    <div class="img-wrap">
+                      <img
+                        src="images/his-img-2.png"
+                        alt="2"
+                        class="img-responsive"
+                      />
+                    </div>
+                    <div class="title">Апельсин</div>
+                    <div class="desc">
+                      Укрепляют иммунитет и благотворно влияют на деятельность
+                      сердечно-сосудистой системы
+                    </div>
+                    <div class="specifications">
+                      <span>Высота: 50 см</span>
+                      <span>|</span>
+                      <span>Урожай: 4 раза в год</span>
+                    </div>
+                    <div class="vitamins">
+                      <div class="item item-c">
+                        <span>C</span>
+                      </div>
+                      <div class="item item-b3">
+                        <span>B3</span>
+                      </div>
+                      <div class="item item-b5">
+                        <span>B5</span>
+                      </div>
+                      <div class="item item-e">
+                        <span>E</span>
+                      </div>
+                      <div class="item item-k">
+                        <span>K</span>
+                      </div>
+                      <div class="item item-ca">
+                        <span>Ca</span>
+                      </div>
+                      <div class="item item-p">
+                        <span>P</span>
+                      </div>
+                      <div class="item item-mg">
+                        <span>Mg</span>
+                      </div>
+                    </div>
+                    <a href="#form-2" class="button scroll-bottom"
+                      >Заказать апельсин</a
+                    >
+                  </div>
+                  <div class="his-item">
+                    <div class="img-wrap">
+                      <img
+                        src="images/his-img-3.png"
+                        alt="3"
+                        class="img-responsive"
+                      />
+                    </div>
+                    <div class="title">Киви</div>
+                    <div class="desc">
+                      Благотворно влияет на работу желудка, способствует
+                      пищеварению, снимает чувство тяжести, понижает уровень
+                      холестерина в крови, способствует выведению камней из
+                      почек
+                    </div>
+                    <div class="specifications">
+                      <span>Высота: 50 см</span>
+                      <span>|</span>
+                      <span>Урожай: 4 раза в год</span>
+                    </div>
+                    <div class="vitamins">
+                      <div class="item item-a">
+                        <span>A</span>
+                      </div>
+                      <div class="item item-b3">
+                        <span>B3</span>
+                      </div>
+                      <div class="item item-b5">
+                        <span>B5</span>
+                      </div>
+                      <div class="item item-e">
+                        <span>E</span>
+                      </div>
+                      <div class="item item-k">
+                        <span>K</span>
+                      </div>
+                      <div class="item item-ca">
+                        <span>Ca</span>
+                      </div>
+                      <div class="item item-p">
+                        <span>P</span>
+                      </div>
+                      <div class="item item-mg">
+                        <span>Mg</span>
+                      </div>
+                    </div>
+                    <a href="#form-2" class="button scroll-bottom"
+                      >Заказать киви</a
+                    >
+                  </div>
+                  <div class="his-item">
+                    <div class="img-wrap">
+                      <img
+                        src="images/his-img-4.png"
+                        alt="4"
+                        class="img-responsive"
+                      />
+                    </div>
+                    <div class="title">Вишня</div>
+                    <div class="desc">
+                      Предотвращает образование тромбов, укрепляет организм и
+                      сердечную мускулатуру. Оказывает защитное действие на
+                      организм, предохраняя его от появления раковых клеток
+                    </div>
+                    <div class="specifications">
+                      <span>Высота: 50 см</span>
+                      <span>|</span>
+                      <span>Урожай: 4 раза в год</span>
+                    </div>
+                    <div class="vitamins">
+                      <div class="item item-c">
+                        <span>C</span>
+                      </div>
+                      <div class="item item-b3">
+                        <span>B3</span>
+                      </div>
+                      <div class="item item-b5">
+                        <span>B5</span>
+                      </div>
+                      <div class="item item-e">
+                        <span>E</span>
+                      </div>
+                      <div class="item item-k">
+                        <span>K</span>
+                      </div>
+                      <div class="item item-ca">
+                        <span>Ca</span>
+                      </div>
+                      <div class="item item-p">
+                        <span>P</span>
+                      </div>
+                      <div class="item item-mg">
+                        <span>Mg</span>
+                      </div>
+                    </div>
+                    <a href="#form-2" class="button scroll-bottom"
+                      >Заказать вишню</a
+                    >
+                  </div>
+                  <div class="his-item">
+                    <div class="img-wrap">
+                      <img
+                        src="images/his-img-5.png"
+                        alt="5"
+                        class="img-responsive"
+                      />
+                    </div>
+                    <div class="title">Мандарин</div>
+                    <div class="desc">
+                      Способствуют снижению веса, положительно сказываются на
+                      пищеварении и улучшают обменные процессы
+                    </div>
+                    <div class="specifications">
+                      <span>Высота: 50 см</span>
+                      <span>|</span>
+                      <span>Урожай: 4 раза в год</span>
+                    </div>
+                    <div class="vitamins">
+                      <div class="item item-a">
+                        <span>A</span>
+                      </div>
+                      <div class="item item-b3">
+                        <span>B3</span>
+                      </div>
+                      <div class="item item-b5">
+                        <span>B5</span>
+                      </div>
+                      <div class="item item-e">
+                        <span>E</span>
+                      </div>
+                      <div class="item item-k">
+                        <span>K</span>
+                      </div>
+                      <div class="item item-ca">
+                        <span>Ca</span>
+                      </div>
+                      <div class="item item-p">
+                        <span>P</span>
+                      </div>
+                      <div class="item item-mg">
+                        <span>Mg</span>
+                      </div>
+                    </div>
+                    <a href="#form-2" class="button scroll-bottom"
+                      >Заказать мандарин</a
+                    >
+                  </div>
+                  <div class="his-item">
+                    <div class="img-wrap">
+                      <img
+                        src="images/his-img-6.png"
+                        alt="6"
+                        class="img-responsive"
+                      />
+                    </div>
+                    <div class="title">Гранат</div>
+                    <div class="desc">
+                      Возбуждает аппетит и помогает пищеварению при пониженной
+                      кислотности желудка. Полезен, как профилактика заболеваний
+                      сердца и сосудов
+                    </div>
+                    <div class="specifications">
+                      <span>Высота: 50 см</span>
+                      <span>|</span>
+                      <span>Урожай: 4 раза в год</span>
+                    </div>
+                    <div class="vitamins">
+                      <div class="item item-c">
+                        <span>C</span>
+                      </div>
+                      <div class="item item-b3">
+                        <span>B3</span>
+                      </div>
+                      <div class="item item-b5">
+                        <span>B5</span>
+                      </div>
+                      <div class="item item-e">
+                        <span>E</span>
+                      </div>
+                      <div class="item item-k">
+                        <span>K</span>
+                      </div>
+                      <div class="item item-ca">
+                        <span>Ca</span>
+                      </div>
+                      <div class="item item-p">
+                        <span>P</span>
+                      </div>
+                      <div class="item item-mg">
+                        <span>Mg</span>
+                      </div>
+                    </div>
+                    <a href="#form-2" class="button scroll-bottom"
+                      >Заказать гранат</a
+                    >
+                  </div>
+                  <div class="his-item">
+                    <div class="img-wrap">
+                      <img
+                        src="images/his-img-7.png"
+                        alt="7"
+                        class="img-responsive"
+                      />
+                    </div>
+                    <div class="title">Лимон</div>
+                    <div class="desc">
+                      Прекрасный источник витамина С, помогает защитить иммунную
+                      систему и препятствует образованию свободных радикалов,
+                      приводящих к развитию раковых заболеваний
+                    </div>
+                    <div class="specifications">
+                      <span>Высота: 50 см</span>
+                      <span>|</span>
+                      <span>Урожай: 4 раза в год</span>
+                    </div>
+                    <div class="vitamins">
+                      <div class="item item-a">
+                        <span>A</span>
+                      </div>
+                      <div class="item item-b3">
+                        <span>B3</span>
+                      </div>
+                      <div class="item item-b5">
+                        <span>B5</span>
+                      </div>
+                      <div class="item item-e">
+                        <span>E</span>
+                      </div>
+                      <div class="item item-k">
+                        <span>K</span>
+                      </div>
+                      <div class="item item-ca">
+                        <span>Ca</span>
+                      </div>
+                      <div class="item item-p">
+                        <span>P</span>
+                      </div>
+                      <div class="item item-mg">
+                        <span>Mg</span>
+                      </div>
+                    </div>
+                    <a href="#form-2" class="button scroll-bottom"
+                      >Заказать лимон</a
+                    >
+                  </div>
+                  <div class="his-item">
+                    <div class="img-wrap">
+                      <img
+                        src="images/his-img-8.png"
+                        alt="8"
+                        class="img-responsive"
+                      />
+                    </div>
+                    <div class="title">Груша</div>
+                    <div class="desc">
+                      Оказывает противовоспалительное действие и даже бороться с
+                      депрессией
+                    </div>
+                    <div class="specifications">
+                      <span>Высота: 50 см</span>
+                      <span>|</span>
+                      <span>Урожай: 4 раза в год</span>
+                    </div>
+                    <div class="vitamins">
+                      <div class="item item-c">
+                        <span>C</span>
+                      </div>
+                      <div class="item item-b3">
+                        <span>B3</span>
+                      </div>
+                      <div class="item item-b5">
+                        <span>B5</span>
+                      </div>
+                      <div class="item item-e">
+                        <span>E</span>
+                      </div>
+                      <div class="item item-k">
+                        <span>K</span>
+                      </div>
+                      <div class="item item-ca">
+                        <span>Ca</span>
+                      </div>
+                      <div class="item item-p">
+                        <span>P</span>
+                      </div>
+                      <div class="item item-mg">
+                        <span>Mg</span>
+                      </div>
+                    </div>
+                    <a href="#form-2" class="button scroll-bottom"
+                      >Заказать грушу</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="secret">
+          <div class="container">
+            <div class="row justify-content-center">
+              <div class="col-lg-20">
+                <div class="block">
+                  <header class="header">
+                    <h2 class="caption">
+                      Секреты плодородия “Домашних деревьев”
+                    </h2>
+                    <div class="caption-desc">
+                      Подготовленная и насыщенная удобрениями, минералами<br />
+                      и микроэлементами почва
+                    </div>
+                  </header>
+                  <div class="cnt">
+                    <div class="row d-none d-lg-flex">
+                      <div class="col-lg-8 border">
+                        <div class="item">
+                          <img src="images/secret-img-1.png" alt="1" />
+                          <div class="title">Почва</div>
+                          <div class="desc">
+                            Для защиты и ускорения роста, почва обогащаются на
+                            молекулярном уровне путем прямого впрыскивания.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-8 border">
+                        <div class="item">
+                          <img src="images/secret-img-2.png" alt="2" />
+                          <div class="title">Семена</div>
+                          <div class="desc">
+                            Состав почвы обеспечивает семена деревьев всеми
+                            необходимыми микроэлементами.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="col-lg-8">
+                        <div class="item">
+                          <img src="images/secret-img-3.png" alt="3" />
+                          <div class="title">Удобрение</div>
+                          <div class="desc">
+                            Особый подход в натуральном удобрении почвы ускоряет
+                            процесс созревания плодов, а также обеспечивает
+                            многократное плодоношение.
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="row d-lg-none">
+                      <div class="col-lg-24">
+                        <div
+                          class="owl-carousel owl-theme slider-4 slider-dots"
+                        >
+                          <div class="item">
+                            <img src="images/secret-img-1.png" alt="1" />
+                            <div class="title">Почва</div>
+                            <div class="desc">
+                              Для защиты и ускорения роста, почва обогащаются на
+                              молекулярном уровне путем прямого впрыскивания.
+                            </div>
+                          </div>
+                          <div class="item">
+                            <img src="images/secret-img-2.png" alt="2" />
+                            <div class="title">Семена</div>
+                            <div class="desc">
+                              Состав почвы обеспечивает семена деревьев всеми
+                              необходимыми микроэлементами.
+                            </div>
+                          </div>
+                          <div class="item">
+                            <img src="images/secret-img-3.png" alt="3" />
+                            <div class="title">Удобрение</div>
+                            <div class="desc">
+                              Особый подход в натуральном удобрении почвы
+                              ускоряет процесс созревания плодов, а также
+                              обеспечивает многократное плодоношение.
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="growing">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-20 offset-lg-2">
+                <div class="item">
+                  <div class="inner">
+                    <h2 class="caption">
+                      <span>Теперь вы можете вырастить</span> настоящие<br />
+                      <span>полезные</span> фрукты своими руками!
+                    </h2>
+                  </div>
+                  <div class="block">
+                    Если вы хотите есть свои сочные натуральные фрукты круглый
+                    год,<br />
+                    то
+                    <b
+                      >сажайте специальные гибридные семена “Домашние
+                      деревья”.</b
+                    >
+                  </div>
+                  <div class="inner">
+                    <div class="video-container">
+                      <iframe
+                        width="439"
+                        height="287"
+                        src="uDpJqn4zeNI.html"
+                        frameborder="0"
+                        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen
+                      ></iframe>
+                    </div>
+                    <div class="desc">
+                      <b
+                        >В основу технологии ДОМАШНИЕ ДЕРЕВЬЯ легли многолетние
+                        исследования НИИ Сельского хозяйства РАН</b
+                      >
+                      в области адаптации сельскохозяйственных культур к
+                      суровому климату центральной России. Благодаря
+                      инновационным разработкам, сегодня нам доступны новые
+                      устойчивые виды сельскохозяйственных культур, о которых
+                      садоводы прошлого века и мечтать не могли!
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="action" class="action">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-24">
+                <h2 class="caption">
+                  <span>Как выращивать?</span> 3 простых действия!
+                </h2>
+              </div>
+            </div>
+            <div class="secret">
+              <div class="cnt">
+                <div class="row d-none d-lg-flex">
+                  <div class="col-lg-8 border">
+                    <div class="item">
+                      <img src="images/action-img-1.png" alt="1" />
+                      <div class="item-cnt">
+                        <div class="title">Шаг №1</div>
+                        <div class="desc">
+                          Вскройте упаковку с семенами<br />
+                          и высадите их согласно инструкции<br />
+                          в заранее приготовленный грунт.<br />
+                          Мини-деревья "Домашние деревья" склонны<br />
+                          очень быстро расти, поэтому заранее<br />
+                          продумайте место для роста<br />
+                          и цветения.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-8 border">
+                    <div class="item">
+                      <img src="images/action-img-2.png" alt="2" />
+                      <div class="item-cnt">
+                        <div class="title">Шаг №2</div>
+                        <div class="desc">
+                          Следите за стабильным<br />
+                          температурным режимом<br />
+                          и умеренным поливом<br />
+                          (поливать по мере подсыхания<br />
+                          почвы).
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-lg-8">
+                    <div class="item">
+                      <img src="images/action-img-3.png" alt="3" />
+                      <div class="item-cnt">
+                        <div class="title">Шаг №3</div>
+                        <div class="desc">
+                          Соберите первый урожай<br />
+                          уже через три месяца после<br />
+                          посадки семян<br />
+                          “Домашние деревья”!
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="row d-lg-none">
+                  <div class="col-lg-24">
+                    <div class="owl-carousel owl-theme slider-4 slider-dots">
+                      <div class="item">
+                        <img src="images/action-img-1.png" alt="1" />
+                        <div class="item-cnt">
+                          <div class="title">Шаг №1</div>
+                          <div class="desc">
+                            Вскройте упаковку с семенами<br />
+                            и высадите их согласно инструкции<br />
+                            в заранее приготовленный грунт.<br />
+                            Мини-деревья "Домашние деревья" склонны<br />
+                            очень быстро расти, поэтому заранее<br />
+                            продумайте место для роста<br />
+                            и цветения.
+                          </div>
+                        </div>
+                      </div>
+                      <div class="item">
+                        <img src="images/action-img-2.png" alt="2" />
+                        <div class="item-cnt">
+                          <div class="title">Шаг №2</div>
+                          <div class="desc">
+                            Следите за стабильным<br />
+                            температурным режимом<br />
+                            и умеренным поливом<br />
+                            (поливать по мере подсыхания<br />
+                            почвы).
+                          </div>
+                        </div>
+                      </div>
+                      <div class="item">
+                        <img src="images/action-img-3.png" alt="3" />
+                        <div class="item-cnt">
+                          <div class="title">Шаг №3</div>
+                          <div class="desc">
+                            Соберите первый урожай<br />
+                            уже через три месяца после<br />
+                            посадки семян<br />
+                            “Домашние деревья”!
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="fresh" class="fresh">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-24">
+                <h2 class="caption"><span>Свежие фрукты круглый год!</span></h2>
+              </div>
+            </div>
+            <div class="row justify-content-center align-items-center">
+              <div class="col-lg-10">
+                <ul class="list">
+                  <li>
+                    В упаковке
+                    <b
+                      >есть все необходимое<br />
+                      для выращивания</b
+                    >
+                    мини деревьев
+                  </li>
+                  <li>
+                    <b>Экологически-чистый гибрид,</b><br />
+                    созданный без генной инженерии
+                  </li>
+                  <li><b>Не требуют сложного ухода</b></li>
+                </ul>
+              </div>
+              <div class="col-lg-10">
+                <ul class="list">
+                  <li>
+                    <b>Семена подходят для выращивания</b><br />
+                    и дома круглый год, и на даче<br />
+                    в летний период
+                  </li>
+                  <li><b>Фрукты вкуснее и полезнее</b></li>
+                  <li>
+                    <b>Созревание за 3 месяца!</b><br />
+                    До 4х урожаев в год!
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-24">
+                <img
+                  src="images/main-img.png"
+                  alt=""
+                  class="main-img img-responsive"
+                />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="review">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-24">
+                <div class="attention">
+                  <b>Внимание! Остерегайтесь подделок!</b> Настоящие
+                  фруктовые<br />
+                  мини-деревья вы можете заказать только напрямую у нас на
+                  сайте!
+                </div>
+                <h2 id="review" class="caption">Отзывы покупателей</h2>
+                <div
+                  class="owl-carousel owl-theme slider-3 slider-dots slider-flex"
+                >
+                  <div class="rev-item">
+                    <img src="images/rev-img-1.jpg" alt="1" />
+                    <div class="title">Владимир Мотылев, 45 лет</div>
+                    <div class="desc">
+                      Заказал себе мини-деревья "Домашние деревья", потому что
+                      хочу быть уверенным в качестве фруктов, которыми я угощаю
+                      свою семью. Ко мне часто приезжают внуки в гости и они
+                      очень любят свежие фрукты. Сами деревья растут быстро,
+                      урожай стабильный. Претензий нет. Самое главное -
+                      дешевизна фруктов. Раньше приходилось покупать в
+                      магазинах, теперь хватает даже на соседей.
+                    </div>
+                  </div>
+                  <div class="rev-item">
+                    <img src="images/rev-img-2.jpg" alt="2" />
+                    <div class="title">Наталья Григоренко</div>
+                    <div class="desc">
+                      Заказала набор "Домашние деревья". Уж очень хотелось
+                      попробовать самостоятельно выращивать фрукты. Мы с мужем
+                      любим попить чаю с лимоном, поэтому нам фруктовое деревце
+                      очень понравилось. Взяли два лимонных и два с вишней.
+                      Здорово, что можно выбрать деревья. Растет на балконе в
+                      квартире круглый год. В летний период вместе со всей
+                      рассадой перевозим на дачу. Очень удобно, а главное, что
+                      всегда есть под рукой свежие лимоны.
+                    </div>
+                  </div>
+                  <div class="rev-item">
+                    <img src="images/rev-img-3.jpg" alt="3" />
+                    <div class="title">Анна Моисеева, 56 лет</div>
+                    <div class="desc">
+                      Честно говоря, заказывая очень сильно сомневалась, что
+                      действительно вырастет, что-то путное. Но как оказалось,
+                      зря переживала. Мини-деревья достаточно быстро выросли и
+                      начали давать плоды. Уже второй месяц кушаем свежие
+                      апельсины и вкуснейшие киви. Да они не такие большущие как
+                      пестицидные варианты в магазинах, но зато полностью
+                      натуральные. Смело могу рекомендовать мини-деревья
+                      "Домашние деревья".
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="order" class="order">
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-24">
+                <h2 class="caption">Как сделать заказ</h2>
+              </div>
+            </div>
+            <div class="row justify-content-center">
+              <div class="col-lg-7 col-md-12">
+                <div class="item">
+                  <div class="img-wrap order-arrow">
+                    <img src="images/order-img-1.png" alt="1" />
+                  </div>
+                  <div class="desc">
+                    Воспользуйтесь формой заказа<br />
+                    и оставьте ваше Имя и телефон
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-7 col-md-12">
+                <div class="item">
+                  <div class="img-wrap order-arrow">
+                    <img src="images/order-img-2.png" alt="2" />
+                  </div>
+                  <div class="desc">
+                    Наш менеджер свяжется с вами<br />
+                    и уточнит адрес доставки
+                  </div>
+                </div>
+              </div>
+              <div class="col-lg-7 col-md-12">
+                <div class="item">
+                  <div class="img-wrap">
+                    <img src="images/order-img-3.png" alt="3" />
+                  </div>
+                  <div class="desc">
+                    Заберите заказ и оплатите посылку<br />
+                    при получении на почте
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-lg-24">
+                <div class="bottom-cnt">
+                  <img src="images/order-bottom-img.png" alt="1" />
+                  <div class="desc">
+                    Доставка почтой от 1 до 10 рабочих дней, в зависимости от
+                    региона
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="form-2" class="main-screen">
+          <div class="container main-caption-wrap">
+            <div class="row">
+              <div class="col-lg-24">
+                <div
+                  class="row main-caption-block justify-content-between d-none d-lg-flex"
+                >
+                  <div class="col-xl-16 col-lg-15">
+                    <div class="main-caption-txt">
+                      <h1 class="main-caption">
+                        <span>Гибридные мини-деревья</span><br />
+                        <span>Домашние фрукты</span>
+                      </h1>
+                      <div class="main-caption-desc">
+                        <span>Урожай спелых фруктов</span><br />
+                        <b>круглый год!</b>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-xl-8 col-lg-9">
+                    <div class="form-wrap">
+                      <form
+                        id="form"
+                        class="form lv2-form lv2-form3"
+                        action="/"
+                        method="post"
+                      >
+                        <div style="display: none">
+                          <input
+                            type="hidden"
+                            value="9bf24c202d26d4f6ae42c9231b9afacf675c39fe"
+                            name="YII_CSRF_TOKEN"
+                          />
+                        </div>
+                        <div class="form-title">Заказать по акции!</div>
+                        <div class="form-desc">
+                          <span class="old-price-cnt">
+                            <span class="old_price_val">1980</span>
+                            <span class="old_price_cur">р</span>
+                          </span>
+                          <span class="new-price-cnt">
+                            <span class="new_price_val">147</span>
+                            <span class="new_price_cur">р</span>
+                          </span>
+                        </div>
+                        <!-- <div class="form-select">
+											<select class="select" name="country">
+												<option value="RU">Россия</option>
+												<option value="KZ">Казахстан</option>
+											</select>
+										</div> -->
+                        <div class="form-input">
+                          <input
+                            id="name"
+                            class="name input"
+                            placeholder="Ваше имя"
+                            name="fio"
+                            type="text"
+                            maxlength="255"
+                          />
+                          <div
+                            class="error lv2-form-error"
+                            style="color: red; display: none"
+                            id="name_em_"
+                          ></div>
+                        </div>
+                        <div class="form-input">
+                          <input
+                            id="phone"
+                            class="phone input textField"
+                            placeholder="Ваш телефон"
+                            name="phone"
+                            type="text"
+                            maxlength="25"
+                          />
+                          <div
+                            style="color: red; display: none"
+                            id="phone_em_"
+                            class="lv2-form-error"
+                          ></div>
+                        </div>
+                        <!-- Timer -->
+                        <div class="action-title">
+                          До окончания акции осталось:
+                        </div>
+                        <div id="countbox2" class="timerbox">
+                          <div class="countbox-num">
+                            <div id="countbox-hours1" class="count-num">0</div>
+                            <div id="countbox-hours2" class="count-num">6</div>
+                            <p class="count-txt">Часов</p>
+                          </div>
+                          <div class="countbox-num">
+                            <div id="countbox-mins1" class="count-num">3</div>
+                            <div id="countbox-mins2" class="count-num">3</div>
+                            <p class="count-txt">Минут</p>
+                          </div>
+                          <div class="countbox-num">
+                            <div id="countbox-secs1" class="count-num">2</div>
+                            <div id="countbox-secs2" class="count-num">1</div>
+                            <p class="count-txt">Секунд</p>
+                          </div>
+                        </div>
+                        <div class="form-button">
+                          <button class="button" type="submit">
+                            Заказать со скидкой
+                          </button>
+                        </div>
+                        <div class="form-sup">*При заказе комплекта</div>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-none d-lg-block">
+            <div class="owl-carousel owl-theme slider-1-2">
+              <div class="img-wrap img-wrap-1"></div>
+              <div class="img-wrap img-wrap-2"></div>
+              <div class="img-wrap img-wrap-3"></div>
+              <div class="img-wrap img-wrap-4"></div>
+              <div class="img-wrap img-wrap-5"></div>
+              <div class="img-wrap img-wrap-6"></div>
+              <div class="img-wrap img-wrap-7"></div>
+              <div class="img-wrap img-wrap-8"></div>
+            </div>
+            <!-- owl carousel end -->
+          </div>
+          <div class="container">
+            <div class="bookmarks bookmarks-2 d-none d-lg-block">
+              <ul class="test test-2">
+                <li class="bookmark1 active" data="0">
+                  <div class="circle">
+                    <span></span>
+                  </div>
+                  <span class="title">Черешня</span>
+                </li>
+                <li class="bookmark2" data="1">
+                  <div class="circle">
+                    <span></span>
+                  </div>
+                  <span class="title">Апельсин</span>
+                </li>
+                <li class="bookmark3" data="2">
+                  <div class="circle">
+                    <span></span>
+                  </div>
+                  <span class="title">Киви</span>
+                </li>
+                <li class="bookmark4" data="3">
+                  <div class="circle">
+                    <span></span>
+                  </div>
+                  <span class="title">Вишня</span>
+                </li>
+                <li class="bookmark5" data="4">
+                  <div class="circle">
+                    <span></span>
+                  </div>
+                  <span class="title">Мандарин</span>
+                </li>
+                <li class="bookmark6" data="5">
+                  <div class="circle">
+                    <span></span>
+                  </div>
+                  <span class="title">Гранат</span>
+                </li>
+                <li class="bookmark6" data="6">
+                  <div class="circle">
+                    <span></span>
+                  </div>
+                  <span class="title">Лимон</span>
+                </li>
+                <li class="bookmark6" data="7">
+                  <div class="circle">
+                    <span></span>
+                  </div>
+                  <span class="title">Груша</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="d-lg-none">
+            <div class="owl-carousel owl-theme slider-1-mob">
+              <div class="img-wrap img-wrap-1"></div>
+              <div class="img-wrap img-wrap-2"></div>
+              <div class="img-wrap img-wrap-3"></div>
+              <div class="img-wrap img-wrap-4"></div>
+              <div class="img-wrap img-wrap-5"></div>
+              <div class="img-wrap img-wrap-6"></div>
+              <div class="img-wrap img-wrap-7"></div>
+              <div class="img-wrap img-wrap-8"></div>
+            </div>
+            <!-- owl carousel end -->
+          </div>
+        </section>
+        <div class="d-lg-none mobile-fs-form">
+          <div class="col-xl-8 col-lg-10">
+            <div class="form-wrap">
+              <form
+                id="form"
+                class="form lv2-form lv2-form4"
+                action="/"
+                method="post"
+              >
+                <div style="display: none">
+                  <input
+                    type="hidden"
+                    value="9bf24c202d26d4f6ae42c9231b9afacf675c39fe"
+                    name="YII_CSRF_TOKEN"
+                  />
+                </div>
+                <div class="form-title">Заказать по акции!</div>
+                <div class="form-desc">
+                  <span class="old-price-cnt">
+                    <span class="old_price_val">1980</span>
+                    <span class="old_price_cur">р</span>
+                  </span>
+                  <span class="new-price-cnt">
+                    <span class="new_price_val">147</span>
+                    <span class="new_price_cur">р</span>
+                  </span>
+                </div>
+                <!-- <div class="form-select">
+							<select class="select" name="country">
+								<option value="RU">Россия</option>
+								<option value="KZ">Казахстан</option>
+							</select>
+						</div> -->
+                <div class="form-input">
+                  <input
+                    id="name"
+                    class="name input"
+                    placeholder="Ваше имя"
+                    name="fio"
+                    type="text"
+                    maxlength="255"
+                  />
+                  <div
+                    class="error lv2-form-error"
+                    style="color: red; display: none"
+                    id="name_em_"
+                  ></div>
+                </div>
+                <div class="form-input">
+                  <input
+                    id="phone"
+                    class="phone input textField"
+                    placeholder="Ваш телефон"
+                    name="phone"
+                    type="text"
+                    maxlength="25"
+                  />
+                  <div
+                    style="color: red; display: none"
+                    id="phone_em_"
+                    class="lv2-form-error"
+                  ></div>
+                </div>
+                <!-- Timer -->
+                <div class="action-title">До окончания акции осталось:</div>
+                <div id="countbox_mob2" class="timerbox">
+                  <div class="countbox-num">
+                    <div id="countbox-hours1" class="count-num">0</div>
+                    <div id="countbox-hours2" class="count-num">6</div>
+                    <p class="count-txt">Часов</p>
+                  </div>
+                  <div class="countbox-num">
+                    <div id="countbox-mins1" class="count-num">3</div>
+                    <div id="countbox-mins2" class="count-num">3</div>
+                    <p class="count-txt">Минут</p>
+                  </div>
+                  <div class="countbox-num">
+                    <div id="countbox-secs1" class="count-num">2</div>
+                    <div id="countbox-secs2" class="count-num">1</div>
+                    <p class="count-txt">Секунд</p>
+                  </div>
+                </div>
+                <div class="form-button">
+                  <button class="button" type="submit">
+                    Заказать со скидкой
+                  </button>
+                </div>
+                <div class="form-sup">*При заказе комплекта</div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </main>
+      <footer class="site-footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-24">
+              <div class="copy">
+                ООО “Мицар” ОГРН 1151832024255;<br />
+                ИНН 1841058402 426009, г. Ижевск, ул. Ухтомского, дом 24,
+                помещение 601
+              </div>
+              <div class="politconf-wrap">
+                <a
+                  href="http://derevia-d.novinki.su/files/d/domashnie-derevia/derevia-d.novinki.su/files/polit-conf.pdf"
+                  class="politconf"
+                  target="_blank"
+                  >Политика конфиденциальности</a
+                >
+              </div>
+            </div>
+          </div>
+          <div class="row justify-content-center">
+            <div class="col-lg-7 col-md-12">
+              <div class="item">
+                <img src="images/footer-img-1.png" alt="1" />
+                <div class="title">100% Гарантия качества</div>
+              </div>
+            </div>
+            <div class="col-lg-7 col-md-12">
+              <div class="item item-2">
+                <img src="images/footer-img-2.png" alt="2" />
+                <div class="title">Оплата при получении</div>
+              </div>
+            </div>
+            <div class="col-lg-7 col-md-12">
+              <div class="item">
+                <img src="images/footer-img-3.png" alt="3" />
+                <div class="title">Быстрая доставка</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </footer>
+    </div>
+
+    <!-- <div class="owl-carousel owl-theme slider-1"></div> -->
+
+    <!-- <a href="#main-modal" class="main-modal">Всплывающее окно</a> -->
+
+    <!-- Модальное окно -->
+    <div id="main-modal" class="mfp-hide modal-window">
+      <div class="modal-wrap">
+        <div class="modal-title">Заголовок</div>
+        <div class="modal-form-wrap">
+          <form
+            method="post"
+            enctype="multipart/form-data"
+            action="#"
+            class="contact-form"
+          >
+            <input
+              class="input-form phone"
+              name="phone"
+              type="tel"
+              placeholder="Ваш телефон"
+              required
+            /><br />
+            <button class="submit-btn">Оставить заявку</button>
+          </form>
+        </div>
+      </div>
+    </div>
+    <!-- Scripts -->
+    <script src="js/jquery-3.2.1.min.js"></script>
+    <script charset="utf-8" src="index.xml" type="text/javascript"></script>
+
+    <script>
+      //Проверка
+      $('input[type="submit"], button').on("click", function () {
+        var form = $(this).parents("form");
+        var phoneInput = $(this).parents("form").find('input[type="tel"]');
+        if (phoneInput.val().length != 18 || phoneInput.val() == "") {
+          form.find(".phone-error").show();
+          phoneInput.css({ "border-color": "#d8512d" });
+          setTimeout(function () {
+            phoneInput.removeAttr("style");
+          }, 500);
+
+          return false;
+        }
+      });
+
+      $('input[type="tel"], button').on("focus", function () {
+        $(this).parents("form").find(".phone-error").hide();
+      });
+    </script>
+    <script src="js/jquery_005.js"></script>
+    <script src="js/jquery.js"></script>
+    <script src="js/purl.js"></script>
+    <script src="js/price.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/jQuery-Mask-Plugin.js"></script>
+    <script src="js/my-scripts.js"></script>
+
+    <script>
+      //Проверка
+      $('input[type="submit"], button').on("click", function () {
+        var form = $(this).parents("form");
+        var phoneInput = $(this).parents("form").find('input[type="tel"]');
+        if (phoneInput.val().length != 18 || phoneInput.val() == "") {
+          form.find(".phone-error").show();
+
+          phoneInput.css({ "border-color": "#d8512d" });
+          setTimeout(function () {
+            phoneInput.removeAttr("style");
+          }, 500);
+
+          return false;
+        }
+      });
+
+      $('input[type="tel"], button').on("focus", function () {
+        $(this).parents("form").find(".phone-error").hide();
+      });
+    </script>
+
+    <script type="text/javascript">
+      /*<![CDATA[*/
+      lvjq1(function ($) {
+        lvjq1("#phone").mask("+7(999)999-99-99", { placeholder: "*" });
+        lvjq1("#form").yiiactiveform({
+          validateOnSubmit: true,
+          afterValidate: function (form, data, hasError) {
+            return window.leadvertex.form.validation(form, data, hasError);
+          },
+          attributes: [
+            {
+              id: "FormLanding_fio",
+              inputID: "name",
+              errorID: "name_em_",
+              model: "FormLanding",
+              name: "fio",
+              enableAjaxValidation: false,
+              clientValidation: function (value, messages, attribute) {
+                if (lvjq1.trim(value) != "") {
+                  if (value.length > 255) {
+                    messages.push(
+                      "Fio \u0441\u043b\u0438\u0448\u043a\u043e\u043c \u0434\u043b\u0438\u043d\u043d\u044b\u0439 (\u041c\u0430\u043a\u0441\u0438\u043c\u0443\u043c: 255 \u0441\u0438\u043c\u0432.)."
+                    );
+                  }
+                }
+
+                if (lvjq1.trim(value) != "" && !value.match(/^.+$/)) {
+                  messages.push(
+                    "\u041f\u043e\u043b\u0435 \u00ab\u0424.\u0418.\u041e\u00bb \u0437\u0430\u043f\u043e\u043b\u043d\u0435\u043d\u043e \u043d\u0435\u0432\u0435\u0440\u043d\u043e"
+                  );
+                }
+
+                if (lvjq1.trim(value) == "") {
+                  messages.push(
+                    "\u041f\u043e\u043b\u0435 \u00ab\u0424.\u0418.\u041e\u00bb \u0437\u0430\u043f\u043e\u043b\u043d\u0435\u043d\u043e \u043d\u0435\u0432\u0435\u0440\u043d\u043e"
+                  );
+                }
+              },
+            },
+            {
+              id: "FormLanding_phone",
+              inputID: "phone",
+              errorID: "phone_em_",
+              model: "FormLanding",
+              name: "phone",
+              enableAjaxValidation: false,
+              clientValidation: function (value, messages, attribute) {
+                if (lvjq1.trim(value) != "") {
+                  if (value.length > 25) {
+                    messages.push(
+                      "Phone \u0441\u043b\u0438\u0448\u043a\u043e\u043c \u0434\u043b\u0438\u043d\u043d\u044b\u0439 (\u041c\u0430\u043a\u0441\u0438\u043c\u0443\u043c: 25 \u0441\u0438\u043c\u0432.)."
+                    );
+                  }
+                }
+
+                if (
+                  lvjq1.trim(value) != "" &&
+                  !value.match(
+                    /^\+7\([0-9][0-9][0-9]\)[0-9][0-9][0-9]\-[0-9][0-9]\-[0-9][0-9]$/
+                  )
+                ) {
+                  messages.push(
+                    "\u041f\u043e\u043b\u0435 \u00ab\u0422\u0435\u043b\u0435\u0444\u043e\u043d\u00bb \u0437\u0430\u043f\u043e\u043b\u043d\u0435\u043d\u043e \u043d\u0435\u0432\u0435\u0440\u043d\u043e"
+                  );
+                }
+
+                if (lvjq1.trim(value) == "") {
+                  messages.push(
+                    "\u041f\u043e\u043b\u0435 \u00ab\u0422\u0435\u043b\u0435\u0444\u043e\u043d\u00bb \u0437\u0430\u043f\u043e\u043b\u043d\u0435\u043d\u043e \u043d\u0435\u0432\u0435\u0440\u043d\u043e"
+                  );
+                }
+              },
+            },
+          ],
+          errorCss: "error",
+        });
+      });
+      /*]]>*/
+    </script>
+
+    <!-- OVDK | Custom -->
+    <script>
+      document.querySelectorAll("form").forEach((form) => {
+        form.action = "./thankyou.php";
+        const params = ["utm_medium", "utm_campaign", "utm_content"];
+        form.appendChild(InputHidden("utm_term", "{subid}"));
+        form.appendChild(InputHidden("event", "{event}"));
+        form.appendChild(InputHidden("pixel", "{pixel}"));
+        form.appendChild(InputHidden("utm_source", "{campaign_name}"));
+        form.appendChild(
+          InputHidden("timezone", new Date().getTimezoneOffset())
+        );
+        params.forEach((p) =>
+          form.appendChild(
+            InputHidden(p, new URL(window.location.href).searchParams.get(p))
+          )
+        );
+      });
+
+      function InputHidden(name, value) {
+        const input = document.createElement("input");
+        input.setAttribute("type", "hidden");
+        input.setAttribute("name", name);
+        input.setAttribute("value", decodeURIComponent(value) || "");
+        return input;
+      }
+    </script>
+    <!-- / OVDK | Custom -->
+  </body>
+</html>
